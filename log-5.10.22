@@ -1,0 +1,115 @@
+INF indexed block height=537824 module=txindex
+11:03AM INF minted coins from module account amount=11264033ugrain from=mint module=x/bank
+11:03AM INF start jailing validators with invalid external chain infos module=x/paloma
+11:03AM INF validator jailed module=x/staking validator=palomavalcons1zpmn8nvjqkrc6ykxeatm446thzt2e6dnrvc6j5
+11:03AM INF jailing a validator module=x/valset reason="not supporting these external chains: [evm, eth-main], [evm, bnb-main]" val-addr=palomavaloper1zz9fnrcpse9fjrq2sjg6rtxhv9z3uyesp539y4
+11:03AM INF trying to deploy smart contract to EVM chain chain-reference-id=bnb-main module=x/evm smart-contract-id=1
+11:03AM INF trying to deploy smart contract to EVM chain chain-reference-id=eth-main module=x/evm smart-contract-id=1
+11:03AM INF trying to deploy smart contract to all chains module=x/evm smart-contract-id=1
+11:03AM INF executed block height=537825 module=state num_invalid_txs=0 num_valid_txs=0
+11:03AM INF commit synced commit=436F6D6D697449447B5B3131302036352032323620313633203231332032323220302031343720323439203230342031313620323436203939203639203635203130352039352036352031343920363520313938203738203730203138302031303920333520313532203730203138332032332037392038395D3A38333445317D
+11:03AM INF committed state app_hash=6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59 height=537825 module=state num_txs=0
+11:03AM ERR Error in validation err="wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=blockchain
+11:03AM INF indexed block height=537825 module=txindex
+11:03AM ERR Stopping peer for error err="blockchainReactor validation error: wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=p2p peer={"Data":{},"Logger":{}}
+11:03AM INF service stop impl={"Logger":{}} module=p2p msg={} peer={"id":"7e93f6409ade895fe301b502d6fb9dfb96343a34","ip":"135.125.5.34","port":54056}
+11:03AM ERR Stopping peer for error err="read tcp 185.217.126.187:58650->135.125.5.34:54056: use of closed network connection" module=p2p peer={"Data":{},"Logger":{}}
+11:03AM INF service stop impl={"Data":{},"Logger":{}} module=p2p msg={} peer={"id":"7e93f6409ade895fe301b502d6fb9dfb96343a34","ip":"135.125.5.34","port":54056}
+11:03AM ERR error while stopping peer error="already stopped" module=p2p
+11:03AM ERR Stopping peer for error err="blockchainReactor validation error: wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=p2p peer={"Data":{},"Logger":{}}
+11:03AM INF service stop impl={"Logger":{}} module=p2p msg={} peer={"id":"d363f84a8f40e655812436be4f0c8b3fc3543805","ip":"173.255.229.106","port":26656}
+11:03AM ERR Stopping peer for error err="read tcp 185.217.126.187:53504->173.255.229.106:26656: use of closed network connection" module=p2p peer={"Data":{},"Logger":{}}
+11:03AM INF service stop impl={"Data":{},"Logger":{}} module=p2p msg={} peer={"id":"d363f84a8f40e655812436be4f0c8b3fc3543805","ip":"173.255.229.106","port":26656}
+11:03AM ERR error while stopping peer error="already stopped" module=p2p
+11:04AM ERR Error in validation err="wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=blockchain
+11:04AM ERR Stopping peer for error err="blockchainReactor validation error: wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Logger":{}} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM ERR Stopping peer for error err="read tcp 185.217.126.187:56448->144.202.103.140:26656: use of closed network connection" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Data":{},"Logger":{}} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF Reconnecting to peer addr={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656} module=p2p
+11:04AM INF Dialing peer address={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656} module=p2p
+11:04AM ERR error while stopping peer error="already stopped" module=p2p
+11:04AM ERR Stopping peer for error err="blockchainReactor validation error: wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Logger":{}} module=p2p msg={} peer={"id":"3c653c2425f8f8f4973bd88e78cb8a5ae9763ed1","ip":"194.163.183.229","port":26656}
+11:04AM ERR Stopping peer for error err="read tcp 185.217.126.187:49964->194.163.183.229:26656: use of closed network connection" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Data":{},"Logger":{}} module=p2p msg={} peer={"id":"3c653c2425f8f8f4973bd88e78cb8a5ae9763ed1","ip":"194.163.183.229","port":26656}
+11:04AM ERR error while stopping peer error="already stopped" module=p2p
+11:04AM INF service start impl="Peer{MConn{144.202.103.140:26656} ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2 out}" module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF service start impl=MConn{144.202.103.140:26656} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF Added peer module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF invalid peer blockHeight=538003 module=blockchain peer=ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2
+11:04AM INF invalid peer blockHeight=537998 module=blockchain peer=ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2
+11:04AM INF invalid peer blockHeight=537923 module=blockchain peer=ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2
+11:04AM ERR Stopping peer for error err="error with peer ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2: invalid peer" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Logger":{}} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM ERR Stopping peer for error err="read tcp 185.217.126.187:59052->144.202.103.140:26656: use of closed network connection" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Data":{},"Logger":{}} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF Reconnecting to peer addr={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656} module=p2p
+11:04AM INF Dialing peer address={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656} module=p2p
+11:04AM ERR error while stopping peer error="already stopped" module=p2p
+11:04AM INF service start impl="Peer{MConn{144.202.103.140:26656} ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2 out}" module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF service start impl=MConn{144.202.103.140:26656} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF Added peer module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF invalid peer blockHeight=538025 module=blockchain peer=ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2
+11:04AM ERR Stopping peer for error err="error with peer ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2: invalid peer" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Logger":{}} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM ERR Stopping peer for error err="read tcp 185.217.126.187:59086->144.202.103.140:26656: use of closed network connection" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Data":{},"Logger":{}} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF Reconnecting to peer addr={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656} module=p2p
+11:04AM INF Dialing peer address={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656} module=p2p
+11:04AM ERR error while stopping peer error="already stopped" module=p2p
+11:04AM ERR Error in validation err="wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=blockchain
+11:04AM ERR Stopping peer for error err="blockchainReactor validation error: wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Logger":{}} module=p2p msg={} peer={"id":"b159364b4e6a3036c36ef6c7c690c5fbc81fa9c4","ip":"65.108.71.92","port":54056}
+11:04AM INF service stop impl={"Data":{},"Logger":{}} module=p2p msg={} peer={"id":"b159364b4e6a3036c36ef6c7c690c5fbc81fa9c4","ip":"65.108.71.92","port":54056}
+11:04AM INF service start impl="Peer{MConn{144.202.103.140:26656} ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2 out}" module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF service start impl=MConn{144.202.103.140:26656} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF Added peer module=p2p peer={"Data":{},"Logger":{}}
+11:04AM ERR Error in validation err="wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=blockchain
+11:04AM ERR Stopping peer for error err="blockchainReactor validation error: wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Logger":{}} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM ERR Stopping peer for error err="read tcp 185.217.126.187:59096->144.202.103.140:26656: use of closed network connection" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Data":{},"Logger":{}} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF Reconnecting to peer addr={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656} module=p2p
+11:04AM INF Dialing peer address={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656} module=p2p
+11:04AM ERR error while stopping peer error="already stopped" module=p2p
+11:04AM INF service start impl="Peer{MConn{144.202.103.140:26656} ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2 out}" module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF service start impl=MConn{144.202.103.140:26656} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF Added peer module=p2p peer={"Data":{},"Logger":{}}
+11:04AM ERR Error in validation err="wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=blockchain
+11:04AM ERR Stopping peer for error err="blockchainReactor validation error: wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Logger":{}} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM ERR Stopping peer for error err="read tcp 185.217.126.187:59114->144.202.103.140:26656: use of closed network connection" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Data":{},"Logger":{}} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM ERR error while stopping peer error="already stopped" module=p2p
+11:04AM INF Reconnecting to peer addr={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656} module=p2p
+11:04AM INF Dialing peer address={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656} module=p2p
+11:04AM INF service start impl="Peer{MConn{144.202.103.140:26656} ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2 out}" module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF service start impl=MConn{144.202.103.140:26656} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF Added peer module=p2p peer={"Data":{},"Logger":{}}
+11:04AM ERR Error in validation err="wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=blockchain
+11:04AM ERR Stopping peer for error err="blockchainReactor validation error: wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Logger":{}} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM ERR Stopping peer for error err="read tcp 185.217.126.187:59166->144.202.103.140:26656: use of closed network connection" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Data":{},"Logger":{}} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM ERR error while stopping peer error="already stopped" module=p2p
+11:04AM INF Reconnecting to peer addr={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656} module=p2p
+11:04AM INF Dialing peer address={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656} module=p2p
+11:04AM INF service start impl="Peer{MConn{144.202.103.140:26656} ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2 out}" module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF service start impl=MConn{144.202.103.140:26656} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF Added peer module=p2p peer={"Data":{},"Logger":{}}
+11:04AM ERR Error in validation err="wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=blockchain
+11:04AM ERR Stopping peer for error err="blockchainReactor validation error: wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Logger":{}} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM ERR Stopping peer for error err="read tcp 185.217.126.187:59190->144.202.103.140:26656: use of closed network connection" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Data":{},"Logger":{}} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF Reconnecting to peer addr={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656} module=p2p
+11:04AM ERR error while stopping peer error="already stopped" module=p2p
+11:04AM INF Dialing peer address={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656} module=p2p
+11:04AM INF service start impl="Peer{MConn{144.202.103.140:26656} ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2 out}" module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF service start impl=MConn{144.202.103.140:26656} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM INF Added peer module=p2p peer={"Data":{},"Logger":{}}
+11:04AM ERR Error in validation err="wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=blockchain
+11:04AM ERR Stopping peer for error err="blockchainReactor validation error: wrong Block.Header.AppHash.  Expected 6E41E2A3D5DE0093F9CC74F6634541695F419541C64E46B46D239846B7174F59, got E723D7C16EAFE1078DFD547AC2F1C24D14CD207BB32B5873E573EA9D7E9FF1CF" module=p2p peer={"Data":{},"Logger":{}}
+11:04AM INF service stop impl={"Logger":{}} module=p2p msg={} peer={"id":"ec0e8d63e8fc0871daaae1466cecea4f2b92e9e2","ip":"144.202.103.140","port":26656}
+11:04AM ERR Stopping peer for error err="read tcp 185.217.126.187:59254->144.202.103.140:26656: use of closed network connection" module=p2p peer={"Data":{},"Logger":{}}
